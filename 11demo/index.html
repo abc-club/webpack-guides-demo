@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  ...
+  <script src="https://unpkg.com/lodash"></script>
+  <script src="https://unpkg.com/zoro-numbers"></script>
+  <script>
+    console.log(webpackNumbers);
+    // ...
+    // 全局变量
+    console.log(webpackNumbers.wordToNum("Five"));
+    // window 对象中的属性
+    console.log(window.webpackNumbers.wordToNum("Five"));
+    // ...
+  </script>
+</html>

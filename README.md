@@ -6,4 +6,5 @@
 
 ## 笔记
 
-optimization.splitChunks 只需要把 node_modules 里的公共模块打包成 vendors, 不需要把我们自己的工具类 utils 打包进 vendors
+- optimization.splitChunks 只需要把 node_modules 里的公共模块打包成 vendors, 不需要把我们自己的工具类 utils 打包进 vendors
+- npm 发布的包可以在 https://unpkg.com/lodash 找到
