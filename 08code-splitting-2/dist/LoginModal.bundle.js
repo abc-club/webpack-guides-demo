@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{2:function(s,o,t){"use strict";t.r(o),console.log("登录弹窗组件初始化"),o.default={status:"hide",show(){this.status="show",console.log("登录弹窗加载成功")},hide(){this.status="hide",console.log("登录弹窗隐藏")}}}}]);
