@@ -1,0 +1,22 @@
+{
+  "name": "webpack-guides-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
