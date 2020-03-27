@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>起步</title>
+    <!-- <script src="https://unpkg.com/lodash"></script> -->
+    <script>
+      var modernBrowser = "fetch" in window && "assign" in Object;
+
+      if (!modernBrowser) {
+        var scriptElement = document.createElement("script");
+
+        scriptElement.async = false;
+        scriptElement.src = "/polyfills.bundle.js";
+        document.head.appendChild(scriptElement);
+      }
+    </script>
+  </head>
+  <body>
+    <script src="./index.bundle.js"></script>
+  </body>
+</html>

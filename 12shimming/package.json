@@ -1,0 +1,24 @@
+{
+  "name": "webpack-guides-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "exports-loader": "^0.7.0",
+    "imports-loader": "^0.8.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.15",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
