@@ -6,8 +6,16 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
+      },
+    ]
+  },
   mode: "production",
   optimization: {
-    usedExports: true
+    usedExports: true // 这里是用来编辑未用的
   }
 };

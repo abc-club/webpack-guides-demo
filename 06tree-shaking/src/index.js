@@ -1,4 +1,6 @@
-import { cube } from "./math.js";
+import { cube, square } from "./math.js";
+import './effect'
+import './main.css'
 
 function component() {
   var element = document.createElement("pre");

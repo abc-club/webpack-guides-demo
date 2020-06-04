@@ -13,9 +13,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   optimization: {
-    // splitChunks: {
-    //   chunks: "all"
-    // },
+    splitChunks: {
+      chunks: "all"
+    },
     splitChunks: {
       cacheGroups: {
         vendor: {
@@ -33,6 +33,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Caching"
     }),
-    new webpack.HashedModuleIdsPlugin()
+    new webpack.HashedModuleIdsPlugin() // vendor的hash不会改变
   ]
 };

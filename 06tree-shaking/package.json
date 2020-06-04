@@ -11,10 +11,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "lodash": "^4.17.15"
-  }
+  },
+  "sideEffects": [
+    "./src/effect.js",
+    "*.css"
+  ]
 }
